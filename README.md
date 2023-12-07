@@ -1,4 +1,4 @@
-![MasterHead](https://www.comeausoftware.com/wp-content/uploads/2022/05/ConwayGif.gif)
+![MasterHead](https://i.giphy.com/26DNfEyKEiWj4oYyQ.webp)
 <!-- 
 https://wallpaperaccess.com/full/849790.gif
 -->
