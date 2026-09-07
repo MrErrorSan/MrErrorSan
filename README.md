@@ -7,8 +7,8 @@
 
 **Lahore, Pakistan** · Open to roles and contract work
 
-<a href="https://saadshafiq.pages.dev">
-  <img src="https://img.shields.io/badge/Portfolio-saadshafiq.pages.dev-ff7a2f?style=for-the-badge&logoColor=white" alt="Portfolio"/>
+<a href="https://devsaadshafiq.vercel.app">
+  <img src="https://img.shields.io/badge/Portfolio-devsaadshafiq.vercel.app-ff7a2f?style=for-the-badge&logoColor=white" alt="Portfolio"/>
 </a>
 <a href="mailto:dev.saadshafiq@gmail.com">
   <img src="https://img.shields.io/badge/Email-dev.saadshafiq%40gmail.com-6b3410?style=for-the-badge&logo=gmail&logoColor=ff7a2f" alt="Email"/>
@@ -90,7 +90,7 @@ pages in under ten minutes, on GCP and AWS with output routed into BigQuery.
 > described and linked rather than shown — no code, no internal screenshots, no
 > client data. What I can discuss is the engineering: the constraints, the
 > architecture and the tradeoffs, which is what the write-ups on my
-> [portfolio](https://saadshafiq.pages.dev) cover.
+> [portfolio](https://devsaadshafiq.vercel.app) cover.
 
 ## Stack
 
@@ -155,7 +155,7 @@ walk through any of the NDA-covered systems at the architecture level.
 <div align="center">
 <br>
 
-**[saadshafiq.pages.dev](https://saadshafiq.pages.dev)** · **[dev.saadshafiq@gmail.com](mailto:dev.saadshafiq@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/dev-saad-shafiq)**
+**[devsaadshafiq.vercel.app](https://devsaadshafiq.vercel.app)** · **[dev.saadshafiq@gmail.com](mailto:dev.saadshafiq@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/dev-saad-shafiq)**
 
 <sub>Open to remote and relocation</sub>
 
