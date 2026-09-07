@@ -1,4 +1,3 @@
-<!-- generated from README.template.md - do not edit -->
 <div align="center">
 
 # Muhammad Saad Shafiq
@@ -40,10 +39,10 @@ Four systems I built are in production right now. Open any of them.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/3.5_years-shipping_production_software-ff7a2f?style=flat-square" alt="3.5 years shipping production software"/>
-<img src="https://img.shields.io/badge/5-engineers_led-6b3410?style=flat-square" alt="5 engineers led"/>
-<img src="https://img.shields.io/badge/1-international_border_crossing-6b3410?style=flat-square" alt="1 international border crossing"/>
-<img src="https://img.shields.io/badge/500%2B-users_on_palm_vein_payments-6b3410?style=flat-square" alt="500+ users on palm-vein payments"/>
+<img src="https://img.shields.io/badge/{{ years_experience | shields }}-shipping_production_software-ff7a2f?style=flat-square" alt="{{ years_experience }} shipping production software"/>
+<img src="https://img.shields.io/badge/{{ stats.engineers_led | shields }}-engineers_led-6b3410?style=flat-square" alt="{{ stats.engineers_led }} engineers led"/>
+<img src="https://img.shields.io/badge/{{ stats.border_crossings | shields }}-international_border_crossing-6b3410?style=flat-square" alt="{{ stats.border_crossings }} international border crossing"/>
+<img src="https://img.shields.io/badge/{{ stats.palm_vein_users | shields }}-users_on_palm_vein_payments-6b3410?style=flat-square" alt="{{ stats.palm_vein_users }} users on palm-vein payments"/>
 
 </div>
 
@@ -73,7 +72,7 @@ Every payment method available to a seven-year-old fails the same two ways: card
 get lost and PINs get forgotten. Both are unworkable at a till with a lunch queue
 behind it. So: palm-vein biometrics, wired through native Android libraries into
 both the enrolment app and the point-of-sale scanner. Nothing to carry, nothing
-to remember. Live across 5+ schools and 10+ canteens with 500+ users.
+to remember. Live across 5+ schools and 10+ canteens with {{ stats.palm_vein_users }} users.
 
 **Enteyoes** — *independent client work · sole developer, four services*
 
@@ -125,18 +124,11 @@ Grouped by what it shipped, not by what I have heard of.
 
 ## Experience
 
-**Senior Full Stack Engineer** — INDUS Technologies, Lahore · *Jan 2026 — present · 8 months*  
-Founding member of DiPGOS. Sole developer for its first two months, now leading frontend and backend platform work with a team of five.
+{% for role in timeline -%}
+**{{ role.title }}** — {{ role.company }}, {{ role.location }} · *{{ role.start_label }} — {{ role.end_label }} · {{ role.tenure }}*  
+{{ role.note }}
 
-**Full Stack Mobile App Developer** — Omnisoft, Lahore · *Aug 2024 — Jan 2026 · 1 year 5 months*  
-Sole developer on the Ambassador Bridge toll system. Delivered marketplace, fintech and location-based products for European and North American clients.
-
-**Full Stack Mobile App Developer** — Zentech Solutions, Lahore · *Jul 2023 — Aug 2024 · 1 year 1 month*  
-Architected the Schoollet payments platform. Pre-launch work on a licensed US sportsbook. Built and operated 25+ production scrapers.
-
-**Software Engineer** — New Elevation, Lahore · *Feb 2023 — Jul 2023 · 5 months*  
-Supported an Oracle ATG e-commerce platform: backend log diagnosis, deployment conflicts, and SQL reporting with production-to-staging data audits.
-
+{% endfor -%}
 **BSc Computer Science** — National University of Computer and Emerging Sciences (FAST-NUCES), Lahore · *2019 — 2023*
 
 ## A note on this profile

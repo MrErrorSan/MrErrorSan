@@ -1,0 +1,52 @@
+name: Refresh README
+
+on:
+  schedule:
+    # Weekly, Monday 02:00 UTC. GitHub disables scheduled workflows in public
+    # repositories after 60 days with no repository activity; if that happens
+    # the README simply keeps its last value until the next push. The job's own
+    # commits use GITHUB_TOKEN and do NOT count as activity, so it cannot keep
+    # itself alive.
+    - cron: "0 2 * * 1"
+  push:
+    branches: [main]
+    paths:
+      - "data/profile.yml"
+      - "README.template.md"
+      - "scripts/**"
+      - ".github/workflows/readme.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m pytest tests/ -q
+
+      - name: Render README
+        run: python -m scripts.render
+
+      - name: Commit if the output changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "README already current; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Refresh generated README figures"
+          git push

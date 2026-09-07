@@ -1,0 +1,53 @@
+identity:
+  name: Muhammad Saad Shafiq
+  title: Senior Full Stack Engineer
+  location: Lahore, Pakistan
+  portfolio: https://saadshafiq.pages.dev
+  email: dev.saadshafiq@gmail.com
+  linkedin: https://www.linkedin.com/in/dev-saad-shafiq
+
+career_start: "2023-02"
+
+timeline:
+  - company: INDUS Technologies
+    title: Senior Full Stack Engineer
+    location: Lahore
+    start: "2026-01"
+    end: present
+    note: >-
+      Founding member of DiPGOS. Sole developer for its first two months, now
+      leading frontend and backend platform work with a team of five.
+
+  - company: Omnisoft
+    title: Full Stack Mobile App Developer
+    location: Lahore
+    start: "2024-08"
+    end: "2026-01"
+    note: >-
+      Sole developer on the Ambassador Bridge toll system. Delivered
+      marketplace, fintech and location-based products for European and North
+      American clients.
+
+  - company: Zentech Solutions
+    title: Full Stack Mobile App Developer
+    location: Lahore
+    start: "2023-07"
+    end: "2024-08"
+    note: >-
+      Architected the Schoollet payments platform. Pre-launch work on a licensed
+      US sportsbook. Built and operated 25+ production scrapers.
+
+  - company: New Elevation
+    title: Software Engineer
+    location: Lahore
+    start: "2023-02"
+    end: "2023-07"
+    note: >-
+      Supported an Oracle ATG e-commerce platform: backend log diagnosis,
+      deployment conflicts, and SQL reporting with production-to-staging data
+      audits.
+
+stats:
+  engineers_led: "5"
+  border_crossings: "1"
+  palm_vein_users: "500+"

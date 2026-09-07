@@ -1,0 +1,11 @@
+# local review artefact, not for the public profile
+.readme-comparison.png
+
+# python bytecode and test cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# agent scratch
+.claude/
+.superpowers/
