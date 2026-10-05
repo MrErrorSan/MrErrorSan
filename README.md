@@ -125,7 +125,7 @@ Grouped by what it shipped, not by what I have heard of.
 
 ## Experience
 
-**Senior Full Stack Engineer** — INDUS Technologies, Lahore · *Jan 2026 — present · 8 months*  
+**Senior Full Stack Engineer** — INDUS Technologies, Lahore · *Jan 2026 — present · 9 months*  
 Founding member of DiPGOS. Sole developer for its first two months, now leading frontend and backend platform work with a team of five.
 
 **Full Stack Mobile App Developer** — Omnisoft, Lahore · *Aug 2024 — Jan 2026 · 1 year 5 months*  
